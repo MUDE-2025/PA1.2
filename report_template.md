@@ -6,21 +6,15 @@
 
 *Due: `<day of week>`, `<month>` `<day>`, `<year>`.*
 
-# Part 1
+## Part 1
 
 **1.1 <question>**
 
-% solution_start
-`<solution>`
-% solution_end
 
 ## Part `2, ...`
 
 **2.1 <question>**
 
-% solution_start
-`<solution>`
-% solution_end
 
 
 
