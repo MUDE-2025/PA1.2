@@ -2,8 +2,6 @@
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
 *Written by: Tom van Woudenberg*
 
 This assignment doesn't have to be delivered.
