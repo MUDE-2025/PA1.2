@@ -2,7 +2,7 @@
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
-*Written by: Tom van Woudenberg and Robert Lanzafame*
+*Written by: Tom van Woudenberg*
 
 ## Task 1.1 Write some basic markdown
 Try to replicate the following piece of text with markdown:
