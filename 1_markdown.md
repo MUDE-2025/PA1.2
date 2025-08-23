@@ -1,9 +1,5 @@
 # Report in a markdown file
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg*
-
 ## Task 1.1 Write some basic markdown
 Try to replicate the following piece of text with markdown:
 
@@ -70,4 +66,4 @@ Now try to replicate the following markdown table (you can copy-paste the star e
 
 % solution_end
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
