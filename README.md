@@ -1,4 +1,4 @@
-# Programming assignment 1.2
+# Programming assignment 1.2: Markdown Mania & Array Artistry
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
