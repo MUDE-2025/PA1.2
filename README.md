@@ -5,6 +5,7 @@ You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/as
 Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_2.html
 
 In this assignment you'll make exercises on:
+1. [Uploading files to GitHub repo](./1_upload_github.md)
 2. [Report in a markdown file](./2_markdown.md)
 3. [Edit markdown cells in a Jupyter Notebook](./3_markdown_ipynb.ipynb)
 4. List comprehension
@@ -14,7 +15,8 @@ You'll need to have done this to be able to make the workshop and group assignme
 
 You pass this PA if you:
 - submitted the form in exercise 6 (please note that this is manually checked).
-- 
+- Added markdown table in exercise 2
+- Added figure in exercise 3
 
 For the fundamental programming concepts there are two exercises:
 

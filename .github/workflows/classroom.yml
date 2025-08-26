@@ -78,6 +78,7 @@ jobs:
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
         CHECK-FILE_RESULTS: "${{steps.check-file.outputs.result}}"
+        CHECK-MARKDOWN-TABLE-RESULTS: "${{steps.check-markdown-table.outputs.result}}"
         CHECK-SINE-WAVE-SVG-RESULTS: "${{steps.check-sine-wave-svg.outputs.result}}"
       with:
-        runners: check-file, check-sine-wave-svg
+        runners: check-file, check-markdown-table, check-sine-wave-svg
