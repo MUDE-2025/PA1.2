@@ -12,6 +12,10 @@ In this assignment you'll make exercises on:
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
+You pass this PA if you:
+- submitted the form in exercise 6 (please note that this is manually checked).
+- 
+
 For the fundamental programming concepts there are two exercises:
 
 6. Python flow

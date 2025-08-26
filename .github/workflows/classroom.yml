@@ -25,9 +25,59 @@ jobs:
         command: if [ -f "file_to_upload.md" ]; then echo "file_to_upload.md exists"; else echo "file_to_upload.md not found"; exit 1; fi
         timeout: 10
         max-score: 10
+    - name: Check for markdown table in 2_markdown.md
+      id: check-markdown-table
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Check for markdown table in 2_markdown.md
+        setup-command: ""
+        command: |
+          if grep -Eq '^\s*\|.*\|\s*$' 2_markdown.md && grep -Eq '^\s*\|[ -:|]+\|\s*$' 2_markdown.md; then
+            echo "Markdown table found in 2_markdown.md"
+          else
+            echo "Markdown table not found in 2_markdown.md"
+            exit 1
+          fi
+        timeout: 10
+        max-score: 10
+    - name: Check for sine_wave.svg in markdown cell
+      id: check-sine-wave-svg
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Check for sine_wave.svg in markdown cell
+        setup-command: pip install nbformat
+        command: |
+          python -c "
+          import nbformat
+          import re
+          import os
+
+          def normalize_path(path):
+            return path.replace('\\\\', '/').replace('\\', '/')
+
+          with open('3_markdown_ipynb', 'r', encoding='utf-8') as f:
+            nb = nbformat.read(f, as_version=4)
+          found = False
+          # Accept variations: ./auxiliary_files/sine_wave.svg, auxiliary_files/sine_wave.svg, .\auxiliary_files\sine_wave.svg, etc.
+          pattern = re.compile(r'!\[\]\((\.\/|\.\\\\|\.\\)?auxiliary_files[\\/]+sine_wave\.svg\)')
+          for cell in nb.cells:
+            if cell.cell_type == 'markdown':
+              src = normalize_path(cell.source)
+              if pattern.search(src):
+                found = True
+                break
+          if found:
+            print('sine_wave.svg found in markdown cell')
+          else:
+            print('sine_wave.svg not found in markdown cell')
+            exit(1)
+          "
+        timeout: 10
+        max-score: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
         CHECK-FILE_RESULTS: "${{steps.check-file.outputs.result}}"
+        CHECK-SINE-WAVE-SVG-RESULTS: "${{steps.check-sine-wave-svg.outputs.result}}"
       with:
-        runners: check-file
+        runners: check-file, check-sine-wave-svg
