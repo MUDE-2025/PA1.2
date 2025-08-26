@@ -1,0 +1,33 @@
+name: Autograding Tests
+on:
+  push:
+    branches:
+      - assignment
+      - solution
+  repository_dispatch:
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Check for file_to_upload.md
+      id: check-file
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Check for file_to_upload.md
+        setup-command: 
+        command: if [ -f "file_to_upload.md" ]; then echo "file_to_upload.md exists"; else echo "file_to_upload.md not found"; exit 1; fi
+        timeout: 10
+        max-score: 10
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        CHECK-FILE_RESULTS: "${{steps.check-file.outputs.result}}"
+      with:
+        runners: check-file

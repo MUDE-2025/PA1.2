@@ -1,6 +1,6 @@
 # Report in a markdown file
 
-## Task 1.1 Write some basic markdown
+## Task 2.1 Write some basic markdown
 Try to replicate the following piece of text with markdown:
 
 ![Markdown example](https://files.mude.citg.tudelft.nl/markdown_example.png)
@@ -43,11 +43,11 @@ print(f"Hello, my name is {name} and I am {age} years old.")
 
 % solution_end
 
-## Task 1.2 Open rendered markdown preview
+## Task 2.2 Open rendered markdown preview
 
 Test out the rendered markdown preview in VS code. Is it identical to the image?
 
-## Task 1.3 Create a markdown table
+## Task 2.3 Create a markdown table
 
 Now try to replicate the following markdown table (you can copy-paste the star emoji ⭐):
 
