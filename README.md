@@ -11,7 +11,7 @@ In this assignment you'll make exercises on:
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
-- ...
+- successfully completed the exercises in 
 
 For the fundamental programming concepts you'll work on [flow](./8_programming_fundamental_concepts.ipynb)
 
