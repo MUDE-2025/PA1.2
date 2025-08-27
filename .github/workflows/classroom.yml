@@ -31,4 +31,4 @@ jobs:
       env:
         CHECK-TEST-NOTEBOOK_RESULTS: "${{steps.test-notebook.outputs.result}}"
       with:
-        runners: test-notebook
+        runners: "test-notebook"
