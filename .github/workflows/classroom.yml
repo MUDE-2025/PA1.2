@@ -29,6 +29,6 @@ jobs:
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
-        CHECK-TEST-NOTEBOOK_RESULTS: "${{steps.test-notebook.outputs.result}}"
+        TEST-NOTEBOOK_RESULTS: "${{steps.test-notebook.outputs.result}}"
       with:
-        runners: "test-notebook"
+        runners: test-notebook
