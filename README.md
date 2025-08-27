@@ -11,12 +11,10 @@ In this assignment you'll make exercises on:
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
-- ...
+- successfully completed the exercises in 
 
-For the fundamental programming concepts there are two exercises:
+For the fundamental programming concepts you'll work on [flow](./8_programming_fundamental_concepts.ipynb)
 
-...
+These exercises on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the ['Flow' chapter of the Learn-python book](https://oit.tudelft.nl/learn-python/2025/flow/intro.html#) by yourself. During the programming tutorial on Tuesday the assignment will be demonstrated too.
 
-These exercises on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
-
-> By Tom van Woudenberg, Ronald Brinkgreve and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> By Tom van Woudenberg, Ronald Brinkgreve, Berend Bouvy and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
