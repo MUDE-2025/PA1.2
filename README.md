@@ -4,9 +4,9 @@ You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/as
 
 In this assignment you'll make exercises on:
 4. [Visualizing a matrix](./4_visualize_matrix.ipynb)
-5. [Creating subplots](./7_creating_subplots.ipynb)
+5. [Creating subplots](./5_creating_subplots.ipynb)
 6. [List comprehension](./6_list_comprehension.ipynb)
-7. [Filling a matrix](./5_fill_matrix.ipynb)
+7. [Filling a matrix](./7_filling_matrix.ipynb)
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
