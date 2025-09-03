@@ -40,7 +40,7 @@ To practice on how to submit your assignment, you'll upload a dummy file.
 
 ![How to upload a file](https://files.mude.citg.tudelft.nl/how_to_upload_file.png)
 
-## Task 1.4 Check that your passed the PA
+## Task 1.4 Check that you passed the PA
 
 To see if you passed the PA
 
