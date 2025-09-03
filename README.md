@@ -2,7 +2,12 @@
 
 You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.2/README.html. You can obtain your personal repository for submission on: TBD
 
+Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_2.html
+
 In this assignment you'll make exercises on:
+1. [Uploading files to GitHub repo](./1_upload_github.md)
+2. [Report in a markdown file](./2_markdown.md)
+3. [Edit markdown cells in a Jupyter Notebook](./3_markdown_ipynb.ipynb)
 4. [Visualizing a matrix](./4_visualize_matrix.ipynb)
 5. [Creating subplots](./5_creating_subplots.ipynb)
 6. [List comprehension](./6_list_comprehension.ipynb)
@@ -11,7 +16,11 @@ In this assignment you'll make exercises on:
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
-- successfully completed the exercises in 
+- Uploaded file in exercise 1
+- Added markdown table in exercise 2
+- Added figure in exercise 3
+- Exercise 6 runs without errors and task 6.5 is completed correctly
+- You've created correct arrays in exercise 7
 
 For the fundamental programming concepts you'll work on [flow](./8_programming_fundamental_concepts.ipynb)
 
