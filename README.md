@@ -2,6 +2,9 @@
 
 You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.2/README.html. You can obtain your personal repository for submission on: TBD
 
+_Tip: when viewing Markdown files (like this README) in VS Code, you can switch to a marked-up "preview" mode using the command CTRL+SHIFT+V. This is especially useful when figures are included in the document._
+
+
 Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_2.html
 
 In this assignment you'll make exercises on:
