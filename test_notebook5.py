@@ -2,7 +2,7 @@ from testbook import testbook
 import numpy as np
 
 def test_filling_matrix():
-    with testbook('5_filling_matrix.ipynb', execute=True) as tb:
+    with testbook('7_filling_matrix.ipynb', execute=True) as tb:
         A52 = np.array([[float(tb.value(f'A52[{row},{col}]')) for col in range(3)] for row in range(3)])
         assert np.all(A52==1)
         assert A52.shape==(3, 3)
