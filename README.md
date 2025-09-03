@@ -19,9 +19,9 @@ In this assignment you'll make exercises on:
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
-- Uploaded file in exercise 1
-- Added markdown table in exercise 2
-- Added figure in exercise 3
+- Upload a file in exercise 1
+- Add a markdown table in exercise 2
+- Add a figure in exercise 3
 - Exercise 6 runs without errors and task 6.5 is completed correctly
 - You've created correct arrays in exercise 7
 
