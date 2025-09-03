@@ -74,11 +74,22 @@ jobs:
           "
         timeout: 10
         max-score: 10
+    - name: Set Jupyter platformdirs environment variable #to remove warning DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs given by the platformdirs library
+      run: echo "JUPYTER_PLATFORM_DIRS=1" >> $GITHUB_ENV
+    - name: Test notebook
+      id: test-notebook
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 10
+        setup-command: pip install numpy scipy pandas matplotlib jupyter ipykernel
+          pytest testbook
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
         CHECK-FILE_RESULTS: "${{steps.check-file.outputs.result}}"
         CHECK-MARKDOWN-TABLE-RESULTS: "${{steps.check-markdown-table.outputs.result}}"
         CHECK-SINE-WAVE-SVG-RESULTS: "${{steps.check-sine-wave-svg.outputs.result}}"
+        TEST-NOTEBOOK_RESULTS: "${{steps.test-notebook.outputs.result}}"
       with:
-        runners: check-file, check-markdown-table, check-sine-wave-svg
+        runners: check-file, check-markdown-table, check-sine-wave-svg, test-notebook
