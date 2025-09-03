@@ -59,7 +59,7 @@ jobs:
             nb = nbformat.read(f, as_version=4)
           found = False
           # Accept variations: ./auxiliary_files/sine_wave.svg, auxiliary_files/sine_wave.svg, .\auxiliary_files\sine_wave.svg, etc.
-          pattern = re.compile(r'!\[\]\((?:\.\/|\.\\\\|\.\\)?auxiliary_files[\\/]+sine_wave\.svg\)')
+          pattern = re.compile(r'!\[\]\((?:\./|\\\\\\\\|\\\\)?auxiliary_files[\\/]+sine_wave\.svg\)')
           for cell in nb.cells:
             if cell.cell_type == 'markdown':
               src = normalize_path(cell.source)
