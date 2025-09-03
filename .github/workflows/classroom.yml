@@ -55,7 +55,7 @@ jobs:
           def normalize_path(path):
             return path.replace('\\\\', '/').replace('\\', '/')
 
-          with open('3_markdown_ipynb', 'r', encoding='utf-8') as f:
+          with open('3_markdown_ipynb.ipynb', 'r', encoding='utf-8') as f:
             nb = nbformat.read(f, as_version=4)
           found = False
           # Accept variations: ./auxiliary_files/sine_wave.svg, auxiliary_files/sine_wave.svg, .\auxiliary_files\sine_wave.svg, etc.
