@@ -88,8 +88,8 @@ jobs:
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
         CHECK-FILE_RESULTS: "${{steps.check-file.outputs.result}}"
-        CHECK-MARKDOWN-TABLE-RESULTS: "${{steps.check-markdown-table.outputs.result}}"
-        CHECK-SINE-WAVE-SVG-RESULTS: "${{steps.check-sine-wave-svg.outputs.result}}"
+        CHECK-MARKDOWN-TABLE_RESULTS: "${{steps.check-markdown-table.outputs.result}}"
+        CHECK-SINE-WAVE-SVG_RESULTS: "${{steps.check-sine-wave-svg.outputs.result}}"
         TEST-NOTEBOOK_RESULTS: "${{steps.test-notebook.outputs.result}}"
       with:
         runners: check-file, check-markdown-table, check-sine-wave-svg, test-notebook
