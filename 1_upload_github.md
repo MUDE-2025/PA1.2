@@ -22,7 +22,7 @@ To work on the assignment, you are expected to first download the files from the
 
 1. Click the green "Code" button
 2. At the bottom of the popup window, select "Download ZIP"
-3. Unzip the file on your computer; the unzipped folder will be your working directory for PA 1.3 and contains all necessary files.
+3. Unzip the file on your computer; the unzipped folder will be your working directory for PA 1.3 and contains all necessary files. Remember that the concept of _working directory_ was introduced in the [reading of last week](https://mude.citg.tudelft.nl/book/2025/programming/week_1_1/files.html); it would be a good idea to make sure the files from this PA are all stored within your MUDE directory so they are easy to find if you need them later!
 
 ![How to download the assignment](https://files.mude.citg.tudelft.nl/how_to_download_assignment.png)
 
@@ -40,7 +40,7 @@ To practice on how to submit your assignment, you'll upload a dummy file.
 
 ![How to upload a file](https://files.mude.citg.tudelft.nl/how_to_upload_file.png)
 
-## Task 1.4 Check that your passed the PA
+## Task 1.4 Check that you passed the PA
 
 To see if you passed the PA
 
