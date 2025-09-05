@@ -1,7 +1,7 @@
 # Report in a markdown file
 
 ## Task 2.1 Write some basic markdown
-Try to replicate the piece of text in the figure here using markdown. If you have no idea what Markdown is, you probably didn't pay attention to the README and need to do the reading in the book! [Here is a handy link](https://mude.citg.tudelft.nl/book/2025/programming/week_1_2.html).
+Try to replicate the piece of text in the figure here using markdown. If you have no idea what Markdown is, you probably didn't pay attention to the README and need to do the reading in the book! [Here is a handy link](https://mude.citg.tudelft.nl/book/2025/programming/week_1_2/markdown.html).
 
 Here is the example to replicate:
 
