@@ -6,7 +6,7 @@ To work on the assignment, you are expected to first download the files from the
 
 ## Task 1.1 Access the assignment
 
-1. Click the link here, the same one as provided in the [README.md](./README.md): [classroom.github.com/a/...](TBP)
+1. Click the link here, the same one as provided in the [README.md](./README.md): https://classroom.github.com/a/gtfYAmfC
 2. Authorize GitHub Access
 3. Join the classroom and identify yourself by finding your Student ID Number in the list of "Identifiers". If your ID is not there, please inform MUDE-CEG@tudelft.nl but you can "skip this step" (username will be used for repo name)
 4. Click "Accept this assignment"
