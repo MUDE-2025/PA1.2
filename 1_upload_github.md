@@ -6,11 +6,12 @@ To work on the assignment, you are expected to first download the files from the
 
 ## Task 1.1 Access the assignment
 
-1. Click the link here, the same one as provided in the [README.md](./README.md): https://classroom.github.com/a/gtfYAmfC
+1. Click the link here, the same one as provided in the [README.md](./README.md): https://classroom.github.com/a/gtfYAmfC (or the backup link https://classroom.github.com/a/n0APOe_C)
 2. Authorize GitHub Access
-3. Join the classroom and identify yourself by finding your Student ID Number in the list of "Identifiers". If your ID is not there, please inform MUDE-CEG@tudelft.nl but you can "skip this step" (username will be used for repo name)
-4. Click "Accept this assignment"
-5. you will see a link that looks like this: `http://github.com/MUDE-2025/....` 
+3. If you used the original link (https://classroom.github.com/a/gtfYAmfC): Join the classroom and identify yourself by finding your Student ID Number in the list of "Identifiers". If your ID is not there, please inform MUDE-CEG@tudelft.nl but you can "skip this step" (username will be used for repo name)
+4. If you used the backup link (https://classroom.github.com/a/n0APOe_C): Join the classroom and Create a new team using your Student ID Number
+5. Click "Accept this assignment"
+6. you will see a link that looks like this: `http://github.com/MUDE-2025/....` 
 
 ![Successfully created assignment](https://files.mude.citg.tudelft.nl/created_github_assignment.png)
 
