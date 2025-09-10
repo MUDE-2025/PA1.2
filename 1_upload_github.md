@@ -34,7 +34,7 @@ To practice on how to submit your assignment, you'll upload a dummy file.
 1. Download the [zip of the dummy file](https://files.mude.citg.tudelft.nl/file_to_upload.zip)
 2. Unzip the dummy file.
 3. Click the "Add file" button and then select "Upload Files"
-4. Drag the file you changed (for now the file to be uploaded) to the appropriate box, or find it using the "Browse" feature.
+4. Drag the file you changed (for now the file to be uploaded) to the appropriate box, or find it using the "Browse" feature. You can upload multiple files at once if you want, they will overwrite existing files with the same name. If you upload a full folder, it will preserve the folder structure.
 5. Once the file is there you don't have to edit any text (e.g., the commit messages)
 6. Simply click the green "Commit Changes" button.
 7. That's it!
@@ -60,5 +60,6 @@ Clicking on `run-autograding-tests` gives you an overview of which parts you fai
 
 ![Failed PA details](https://files.mude.citg.tudelft.nl/failed_notebook_2.png)
 
+If you failed the PA, you can fix the issues and re-upload the files. A new workflow will be re-run automatically, while old workflows will keep their red cross. You can do this as many times as you want until the deadline.
 
 > By Tom van Woudenberg, Robert Lanzafame and Jialei Ding, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
