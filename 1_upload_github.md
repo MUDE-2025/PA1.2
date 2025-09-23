@@ -1,12 +1,12 @@
 # Upload files to GitHub and check for pass
 
-You'll be assigned repositories on GitHub for the assignments to be delivered. We will learn more about Git, GitHub and repositories next week. For now, we will simply be using it as a place to download and upload files, and to check whether you succeeded the PA. Only you (and your fellow group members for group assignments) and your teachers have access to this repository.
+You'll be assigned repositories on GitHub for every assignments to be delivered. We will learn more about Git, GitHub and repositories next week. For now, we will simply be using it as a place to download and upload files, and to check whether you succeeded the PA. Only you (and your fellow group members for group assignments) and your teachers have access to this repository.
 
-To work on the assignment, you are expected to first download the files from the repository, then work in the notebook. When you have finished the activities, you'll upload your files back to the GitHub repository online. We'll learn a smarter way to do this next week, but this will work for now.
+To work on the assignment, you are expected to first download the files from your assigned repository, then work in the notebook. When you have finished the activities, you'll upload your files back to the same GitHub repository online. We'll learn a smarter way to do this next week, but this will work for now.
 
 ## Task 1.1 Access the assignment
 
-1. Click the link here, the same one as provided in the [README.md](./README.md): https://classroom.github.com/a/gtfYAmfC (or the backup link https://classroom.github.com/a/n0APOe_C)
+1. Click the link here, the same one as provided in the [README.md](./README.md): https://classroom.github.com/a/gtfYAmfC (or the backup link https://classroom.github.com/a/n0APOe_C). Note that every assignment has a new link.
 2. Authorize GitHub Access
 3. If you used the original link (https://classroom.github.com/a/gtfYAmfC): Join the classroom and identify yourself by finding your Student ID Number in the list of "Identifiers". If your ID is not there, please inform MUDE-CEG@tudelft.nl but you can "skip this step" (username will be used for repo name)
 4. If you used the backup link (https://classroom.github.com/a/n0APOe_C): Join the classroom and Create a new team using your Student ID Number
