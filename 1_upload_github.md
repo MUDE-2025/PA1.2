@@ -13,11 +13,11 @@ To work on the assignment, you are expected to first download the files from you
 5. Click "Accept this assignment"
 6. you will see a link that looks like this: `http://github.com/MUDE-2025/....` 
 
-![Successfully created assignment](https://files.mude.citg.tudelft.nl/created_github_assignment.png)
+![Successfully created assignment](https://github.com/TUDelft-MUDE/source-files/raw/main/file/created_github_assignment.png)
 
 6. Click the link, it'll bring you to your personal repository. Save the link or bookmark it so you can find it later
 
-![An example of the repository for your assignment](https://files.mude.citg.tudelft.nl/example_repo_github.png)
+![An example of the repository for your assignment](https://github.com/TUDelft-MUDE/source-files/raw/main/file/example_repo_github.png)
 
 ## Task 1.2 Download the assignment
 
@@ -25,13 +25,13 @@ To work on the assignment, you are expected to first download the files from you
 2. At the bottom of the popup window, select "Download ZIP"
 3. Unzip the file on your computer; the unzipped folder will be your working directory for PA 1.3 and contains all necessary files. Remember that the concept of _working directory_ was introduced in the [reading of last week](https://mude.citg.tudelft.nl/book/2025/programming/week_1_1/files.html); it would be a good idea to make sure the files from this PA are all stored within your MUDE directory so they are easy to find if you need them later!
 
-![How to download the assignment](https://files.mude.citg.tudelft.nl/how_to_download_assignment.png)
+![How to download the assignment](https://github.com/TUDelft-MUDE/source-files/raw/main/file/how_to_download_assignment.png)
 
 ## Task 1.3 Upload files
 
 To practice on how to submit your assignment, you'll upload a dummy file.
 
-1. Download the [zip of the dummy file](https://files.mude.citg.tudelft.nl/file_to_upload.zip)
+1. Download the [zip of the dummy file](https://github.com/TUDelft-MUDE/source-files/raw/main/file/file_to_upload.zip)
 2. Unzip the dummy file.
 3. Click the "Add file" button and then select "Upload Files"
 4. Drag the file you changed (for now the file to be uploaded) to the appropriate box, or find it using the "Browse" feature. You can upload multiple files at once if you want, they will overwrite existing files with the same name. If you upload a full folder, it will preserve the folder structure.
@@ -39,7 +39,7 @@ To practice on how to submit your assignment, you'll upload a dummy file.
 6. Simply click the green "Commit Changes" button.
 7. That's it!
 
-![How to upload a file](https://files.mude.citg.tudelft.nl/how_to_upload_file.png)
+![How to upload a file](https://github.com/TUDelft-MUDE/source-files/raw/main/file/how_to_upload_file.png)
 
 ## Task 1.4 Check that you passed the PA
 
@@ -50,15 +50,15 @@ To see if you passed the PA
 3. If you recently uploaded a file you should see a yellow dot. This means your submission is being checked; it will change after the checking process is completed.
 4. If the dot turns green, you passed the PA. Probably it doesn't turn green because you didn't start the second part of this assignment.
 
-![Passed PA](https://files.mude.citg.tudelft.nl/passed_notebook.png)
+![Passed PA](https://github.com/TUDelft-MUDE/source-files/raw/main/file/passed_notebook.png)
 
 If the dot turns red with an "x" it means your PA does not meet the requirements. If this happens, you can find more details by clicking on the workflow:
 
-![Failed PA](https://files.mude.citg.tudelft.nl/failed_notebook.png)
+![Failed PA](https://github.com/TUDelft-MUDE/source-files/raw/main/file/failed_notebook.png)
 
 Clicking on `run-autograding-tests` gives you an overview of which parts you failed and if you open the individual checks some more details. E.g. in the figure below, 0 points are scored because 'Check for file_to_upload.md' gives `file_to_upload.md not found`.
 
-![Failed PA details](https://files.mude.citg.tudelft.nl/failed_notebook_2.png)
+![Failed PA details](https://github.com/TUDelft-MUDE/source-files/raw/main/file/failed_notebook_2.png)
 
 If you failed the PA, you can fix the issues and re-upload the files. A new workflow will be re-run automatically, while old workflows will keep their red cross. You can do this as many times as you want until the deadline.
 
