@@ -1,6 +1,6 @@
 # Programming assignment 1.2: Markdown Mania & Array Artistry
 
-You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.2/README.html. After the deadline, this link will include solutions. The preview of the assignment version is shared here: https://mude.citg.tudelft.nl/workbook-2025/no_solutions/assignments/PA1.2/README.html. You can obtain your personal repository for submission on: https://classroom.github.com/a/gtfYAmfC. If you receive a 'Repository Access Issue' in that process, please use this link: https://classroom.github.com/a/n0APOe_C and create a team using your student ID. Instructions how to submit this assignment are part of [the first task of this repository](./1_upload_github.md).
+You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.2/README.html. After the deadline, this link will include solutions. The preview of the assignment version is shared here: https://mude.citg.tudelft.nl/workbook-2025/no_solutions/assignments/PA1.2/README.html. You can obtain your personal repository for submission on: https://classroom.github.com/a/gtfYAmfC. If you don't want to make this assignment as part of a grade, access the assignment here: https://github.com/MUDE-2025/PA1.2.
 
 _Tip: when viewing Markdown files (like this README) in VS Code, you can switch to a marked-up "preview" mode using the command CTRL+SHIFT+V. This is especially useful when figures are included in the document._
 
