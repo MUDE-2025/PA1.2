@@ -9,7 +9,6 @@ Here is the example to replicate:
 
 % WRITE YOUR MARKDOWN HERE
 
-% solution_start
 ### My First Markdown Document
 
 This is my introduction to *markdown formatting*. I'm learning how to use various formatting options so that I can style my reports.
@@ -43,7 +42,6 @@ print(f"Hello, my name is {name} and I am {age} years old.")
 
 *Remember: Practice makes perfect!*
 
-% solution_end
 
 ## Task 2.2 Open rendered markdown preview
 
@@ -57,7 +55,6 @@ Now try to replicate the following markdown table (you can copy-paste the star e
 
 % WRITE YOUR MARKDOWN HERE
 
-% solution_start
 
 | Language | Difficulty | Use Case | Popularity |
 | :-: | :- | :- | :-: |
@@ -66,6 +63,5 @@ Now try to replicate the following markdown table (you can copy-paste the star e
 | C++ | Advanced | System Programming | ⭐⭐⭐ |
 | R | Intermediate | Statistics, Data Analysis | ⭐⭐⭐ |
 
-% solution_end
 
 > By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
